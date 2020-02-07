@@ -4,7 +4,7 @@ const env = require('node-env-file');
 
 const channel = (argv.channel) ? argv.channel : 'test-channel';
 const message = (argv.message) ? argv.message : 'test-message';
-const payload = (argv.payload) ? argv.payload : 'test-payload';
+const payload = (argv.payload) ? argv.payload : '';
 console.debug(`read args, channel: ${channel} message: ${message} payload: ${payload}`);
 
 env('.env');
